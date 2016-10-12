@@ -1,4 +1,4 @@
-package sample.web.ui.mvc;
+package io.wedeploy.example;
 
 import javax.validation.Valid;
 

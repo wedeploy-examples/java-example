@@ -2,6 +2,7 @@ bower_components
 build
 coverage
 node_modules
+target
 yarn.lock
 *.soy.js
 ui/src/main/webapp/docs/compiled
@@ -13,7 +14,6 @@ ui/src/main/webapp/docs/compiled
 .project
 .settings
 *.iml
-build
 gradle.properties
 out
 
