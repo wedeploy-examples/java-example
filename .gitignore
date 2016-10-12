@@ -1,20 +1,17 @@
 bower_components
-build
 coverage
 node_modules
+target
 yarn.lock
 *.soy.js
 ui/src/main/webapp/docs/compiled
 .file-uploads
 
 .classpath
-.gradle
 .idea
 .project
 .settings
 *.iml
-build
-gradle.properties
 out
 
 **/*.map
