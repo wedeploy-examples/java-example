@@ -1,10 +1,8 @@
+group 'io.wedeploy.example'
+version '1.0-SNAPSHOT'
+
 buildscript {
-  ext {
-    springBootVersion = '2.0.0.BUILD-SNAPSHOT'
-    springLoadedVersion = '1.2.4.RELEASE'
-  }
   repositories {
-    // NOTE: You should declare only repositories that you need here
     mavenLocal()
     mavenCentral()
     maven { url "http://repo.spring.io/release" }
@@ -12,15 +10,13 @@ buildscript {
     maven { url "http://repo.spring.io/snapshot" }
   }
   dependencies {
-    classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-    classpath("org.springframework:springloaded:${springLoadedVersion}")
+    classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.0.BUILD-SNAPSHOT")
+    classpath("org.springframework:springloaded:1.2.4.RELEASE")
   }
 }
 
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 
 springBoot {
@@ -31,17 +27,7 @@ task run(dependsOn: ':bootRun') << {
     println 'Boot'
 }
 
-task testRunIvan {
-  bootRun
-}
-
-jar {
-  baseName = 'boilerplate-java'
-  version =  '0.0.1'
-}
-
 repositories {
-  // NOTE: You should declare only repositories that you need here
   mavenLocal()
   mavenCentral()
   maven { url "http://repo.spring.io/release" }
@@ -52,7 +38,8 @@ repositories {
 dependencies {
   compile("org.springframework.boot:spring-boot-starter-thymeleaf")
   compile("org.hibernate:hibernate-validator")
-  testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
-task wrapper(type: Wrapper) { gradleVersion = '1.6' }
+task wrapper(type: Wrapper) {
+  gradleVersion = '2.12'
+}
