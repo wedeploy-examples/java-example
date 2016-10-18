@@ -33,15 +33,3 @@ public class WeDeployController {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
