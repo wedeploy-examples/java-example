@@ -1,5 +1,5 @@
-# Java / Boilerplate
+# Java Boilerplate
 
-This template will help you through the process of deploying a WeDeploy Java container.
+This template will help you through the process of deploying a Java project on WeDeploy.
 
-> [This template will help you through the process of deploying a WeDeploy Java container.](http://wedeploy.com/docs/other/java.html)
+> [Visit the documentation to learn how to start using Java with WeDeploy.](https://ui-wedeploy.wedeploy.io/docs/deploy/deploying-java.html)
