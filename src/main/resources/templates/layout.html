@@ -3,47 +3,73 @@
       xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout">
 <head>
   <meta charset="UTF-8" />
+  <meta content="minimum-scale=1.0, width=device-width" name="viewport" />
   <title>It works!</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" />
   <style>
   body {
-      background: #0e141a;
-      font-family: 'Open Sans', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
   .container {
-    position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: center;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 90%;
   }
   h1 {
-    font-size: 72px;
-    font-weight: 700;
-    color: #00d46a;
-    margin: 0;
+    color: rgb(14,20,26);
+    font-size: 46px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 60px;
+    margin: 6px 0 0;
   }
   h2 {
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.9);
-    margin: 0;
-  }
-  .logo {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: rgba(14,20,26,.8);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin: 12px 0 0;
   }
   </style>
 </head>
 <body>
   <div class="container">
     <div layout:fragment="content">
-      <h1>It works!</h1>
-      <h2>Now you're ready to roll.</h2>
+      <svg width="270px" height="270px" viewBox="0 0 270 270" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+        <title>illustration</title>
+        <desc>Created with Sketch.</desc>
+        <defs>
+          <path d="M90.0000035,91.9999367 C95.5000055,91.9999367 100.000007,87.4999509 100.000007,81.9999684 C100.000007,76.4999858 95.5000055,72 90.0000035,72 C84.5000016,72 80,76.4999858 80,81.9999684 C80,87.4999509 84.5000016,91.9999367 90.0000035,91.9999367 Z" id="path-1"></path>
+        </defs>
+        <g id="Workflow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="01-page-sample" transform="translate(-585.000000, -156.000000)">
+            <g id="view-1">
+              <g id="illustration" transform="translate(585.000000, 156.000000)">
+                <circle id="circle-outer-2" fill-opacity="0.0599999987" fill="#00D46A" cx="135" cy="135" r="135"></circle>
+                <circle id="circle-outer-1" fill-opacity="0.1" fill="#00D46A" cx="135" cy="135" r="114"></circle>
+                <g id="icon" transform="translate(45.000000, 45.000000)">
+                  <circle id="container" fill-opacity="0.2" fill="#00D46A" cx="90" cy="90" r="90"></circle>
+                  <circle id="outline" stroke-opacity="0.08" stroke="#00D46A" stroke-width="30" cx="90" cy="90" r="75"></circle>
+                  <path d="M123.562741,90.4376457 C124.437744,91.375149 125.000246,92.6251534 125.000246,94.0001583 L125.000246,114.000229 C125.000246,116.750238 122.750238,119.000246 120.000229,119.000246 C119.000225,119.000246 118.000222,118.687745 117.250219,118.187743 L117.187719,118.125243 L102.625167,108.437709 C101.000162,110.062715 100.687661,110.375216 98.5626532,112.562724 C97.6251499,113.437727 96.3751455,114.000229 95.0001407,114.000229 L85.0001055,114.000229 C83.6251007,114.000229 82.3750963,113.437727 81.437593,112.562724 C79.3125855,110.375216 79.0000844,110.062715 77.3750787,108.437709 L62.8125275,118.125243 L62.7500273,118.187743 C62.0000246,118.687745 61.0000211,119.000246 60.0000176,119.000246 C57.2500079,119.000246 55,116.750238 55,114.000229 L55,94.0001583 C55,92.6251534 55.562502,91.375149 56.4375051,90.4376457 C63.0000281,83.9376229 64.2500325,82.6876185 70.0000528,76.9375982 L70.0000528,74.0000879 C70.0000528,68.625069 72.1250602,63.7500519 75.5625723,60.1250391 C80.0625881,55.1250215 80.1250884,55.0000211 82.5625969,52.3125116 C84.3751033,50.2500044 87.0626128,49 90.0001231,49 C92.9376334,49 95.6251429,50.2500044 97.4376492,52.3125116 C99.8751578,55.0000211 99.937658,55.1250215 104.437674,60.1250391 C107.875186,63.7500519 110.000193,68.625069 110.000193,74.0000879 L110.000193,76.9375982 C115.750214,82.6876185 117.000218,83.9376229 123.562741,90.4376457 Z" id="rocket" fill="#00D46A"></path>
+                  <g id="window" fill="#FFFFFF">
+                    <use xlink:href="#path-1"></use>
+                    <use xlink:href="#path-1"></use>
+                  </g>
+                  <rect id="line" fill="#FFFFFF" x="86" y="114" width="8" height="111"></rect>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+    <h1>My site is live!</h1>
+    <h2>Wow, that was easy.</h2>
     </div>
   </div>
-
-  <img class="logo" src="https://cloud.githubusercontent.com/assets/398893/16279177/af9b3622-386e-11e6-920e-3a3f33169831.png" width="150" alt="WeDeploy" />
 </body>
 </html>
