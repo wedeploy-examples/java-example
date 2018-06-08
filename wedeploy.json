@@ -1,3 +1,6 @@
 {
-  "id": "java"
+  "id": "java",
+  "healthCheck": {
+    "url": "localhost:8080"
+  }
 }
